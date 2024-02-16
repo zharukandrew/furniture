@@ -1,2 +1,4 @@
-@import 'mobile/mobile.css';
-@import 'animation/animation.css';/*# sourceMappingURL=style.css.map */
+@import '/fonts/fonts.css';
+@import '/reset/reset.css';
+@import '/mobile/mobile.css';
+@import '/animation/animation.css';/*# sourceMappingURL=style.css.map */
