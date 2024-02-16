@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"fonts.css"}
+{"version":3,"sources":["fonts.scss","fonts.css"],"names":[],"mappings":"AASQ,0EAAA;AACA,mFAAA;AAVR;EACC,4BAAA;EACA,oCAAA,EAAA,4BAAA;EACA,4RAAA,EAI8D,2BAAA;ACD/D","file":"fonts.css"}

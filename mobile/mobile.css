@@ -1,1 +1,14 @@
-/*# sourceMappingURL=mobile.css.map */
+@media (max-width: 767px) {
+  .header__content {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+  }
+  .header__menu {
+    display: flex;
+    gap: 25px;
+  }
+  .header__menu-list {
+    font-size: 6px;
+  }
+}/*# sourceMappingURL=mobile.css.map */
