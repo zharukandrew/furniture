@@ -1,1 +1,37 @@
-/*# sourceMappingURL=animation.css.map */
+.magazin {
+  animation-duration: 3s;
+  animation-name: slide;
+}
+
+@keyframes slide {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.add {
+  animation-duration: 3s;
+  animation-name: add;
+}
+
+@keyframes add {
+  from {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(30deg);
+  }
+  75% {
+    transform: rotate(-30deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+.-loading-add {
+  animation: rotating 2s linear infinite;
+}/*# sourceMappingURL=animation.css.map */

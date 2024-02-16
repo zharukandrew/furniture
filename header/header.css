@@ -1,0 +1,38 @@
+.furnituras {
+  height: 1084px;
+  background-image: url(/img/Rectangle\ 1441.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+option {
+  background-color: transparent;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 47px;
+}
+.header__menu {
+  display: flex;
+  gap: 65px;
+}
+.header__menu-list {
+  color: white;
+  padding-bottom: 10px;
+  background-color: transparent;
+  border: none;
+}
+.header__img {
+  height: 28px;
+  background-image: url(/img/Bag.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.header__img img {
+  position: relative;
+  left: 10px;
+}/*# sourceMappingURL=header.css.map */
