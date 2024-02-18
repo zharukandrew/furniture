@@ -20,6 +20,8 @@ option {
   gap: 65px;
 }
 .header__menu-list {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
   color: white;
   padding-bottom: 10px;
   background-color: transparent;

@@ -65,12 +65,17 @@ option {
         gap: 65px;
 
         &-list {
+            font-family: "Inter", sans-serif;
+            font-weight: 400;
+            
             color: white;
             padding-bottom: 10px;
             background-color: transparent;
             border: none;
             
+            
         }
+      
     }
 
     &__img {
