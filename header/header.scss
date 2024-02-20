@@ -1,46 +1,18 @@
+select {
+    background-color: transparent;
+    color: white; /* цвет текста */
+    border: 1px solid black; /* граница черного цвета */
+}
 
-// .furnituras{
-//     height: 1084px;
-//     background-image: url(/img/Rectangle\ 1441.png);
-//     background-repeat: no-repeat;
-//     background-position: center;
-//     background-size: cover;
-// }
-// option{
-//     background-color: transparent;
-// }
+option {
+    color: black; /* цвет текста */
+    background-color: transparent;
+}
 
-
-// .header{
-//     &__content{
-//         display: flex;
-//         justify-content: space-around;
-//         padding-top: 47px;
-//     }
-//     &__menu{
-//         display: flex;
-//         gap:65px;
-//         &-list {
-//             color:white;
-//             padding-bottom: 10px;
-//             background-color: transparent;
-//             border:none;
-//              font-size: 18px;
-//         }
-//     }
-//     &__img{
-//         height: 28px;
-//         background-image: url(/img/Bag.png);
-//         background-repeat: no-repeat;
-//         background-position: center;
-//         background-size: cover;
-//     }
-//     &__img img{
-//         position: relative;
-//         left:10px;
-//     }
-    
-// }
+option:checked {
+    background-color: black; /* цвет фона при выборе */
+    color: white; /* цвет текста при выборе */
+}
 .furnituras {
     height: 1084px;
     background-image: url(/img/Rectangle\ 1441.png);
@@ -49,9 +21,7 @@
     background-size: cover;
 }
 
-option {
-    background-color: transparent;
-}
+
 
 .header {
     &__content {
@@ -65,16 +35,19 @@ option {
         gap: 65px;
 
         &-list {
-            font-family: "Inter", sans-serif;
+            font-family: "Gilroy-Medium", sans-serif;
             font-weight: 400;
             
             color: white;
             padding-bottom: 10px;
             background-color: transparent;
             border: none;
-            
+            &-list furnituras{
+                background-color: transparent;
+            }
             
         }
+       
       
     }
 
