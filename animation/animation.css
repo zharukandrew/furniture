@@ -34,4 +34,12 @@
 }
 .-loading-add {
   animation: rotating 2s linear infinite;
+}
+
+.muhmalistic__title:hover {
+  translate: 350px;
+}
+
+.muhmalistic__page:hover {
+  transform: scale(1.1);
 }/*# sourceMappingURL=animation.css.map */

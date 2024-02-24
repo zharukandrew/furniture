@@ -11,4 +11,11 @@
   .header__menu-list {
     font-size: 6px;
   }
+  .muhmalistic__title {
+    font-size: 16px;
+  }
+  .muhmalistic__page {
+    font-size: 16px;
+    max-width: 350px;
+  }
 }/*# sourceMappingURL=mobile.css.map */

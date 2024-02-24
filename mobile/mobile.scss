@@ -14,4 +14,13 @@
             font-size: 6px;
         }
     }
+    .muhmalistic{
+        &__title{
+            font-size:16px
+        }
+        &__page{
+            font-size:16px;
+            max-width: 350px;
+        }
+    }
 }
