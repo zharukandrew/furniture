@@ -1,9 +1,12 @@
-
-import { header,headerImg } from "../script.js"; // <-- Import the 'header' variable
+import { header,headerImg ,chousingUs} from "../script.js";
 const head = () => {
-   header.classList.toggle("magazin");
-}
-const adds = ()=>{
-    headerImg.classList.toggle("add");
-}
-export { head , adds};
+    header.classList.toggle("magazin");
+ }
+ const adds = () => {
+     headerImg.classList.toggle("add");
+ }
+ const chouse = () => {
+     chousingUs.classList.toggle("magazin");
+ }
+ 
+ export { head, adds, chouse };

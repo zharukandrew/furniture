@@ -1,0 +1,62 @@
+.chousing{
+    display: flex;
+    gap: 50px;
+    margin-left:50px ;
+    margin-right:50px ;
+    justify-content: space-between;
+    margin-top: 120px;
+    margin-bottom: 160px;
+    &__us-title{
+        font-family: 'Gilroy Bold';
+        font-weight: 700;
+        color:black;
+        font-size: 42px;
+       max-width: 242px;
+       height: 104px;
+    }
+    &__luxury-title{
+        font-family: 'Gilroy Bold';
+        font-weight: 700;
+        color:black;
+        font-size: 28px;
+        line-height:28.13px
+    }
+    &__luxury-page-page{
+        
+            font-family: 'Gilroy Regular';
+            font-weight: 400;
+            font-size: 16px;
+            line-height:29.6px;
+            color: grey;
+            max-width: 256px;
+           
+            padding-top: 20px;
+    }
+    &__luxury-page-price{
+        font-family: 'Gilroy Regular';
+            font-weight: 400;
+        font-size: 16px;
+            line-height:29.6px;
+            color: grey;
+            max-width: 256px;
+           
+            padding-top: 20px;
+    }
+    &__luxury-page{
+        font-family: 'Gilroy Regular';
+        font-weight: 400;
+        font-size: 16px;
+        line-height:29.6px;
+        color: grey;
+        max-width: 286px;
+       
+        padding-top: 20px;
+    }
+    
+    &__luxury-link{
+        color: orangered;
+        display: flex;
+        padding-top: 20px;
+    }
+    
+}
