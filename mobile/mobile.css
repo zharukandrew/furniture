@@ -18,4 +18,15 @@
     font-size: 16px;
     max-width: 350px;
   }
+  .chousing {
+    display: flex;
+    flex-direction: column;
+  }
+  .chousing__us-title {
+    font-size: 24px;
+  }
+  .chousing__luxury-title {
+    font-size: 18px;
+    line-height: 8.13px;
+  }
 }/*# sourceMappingURL=mobile.css.map */

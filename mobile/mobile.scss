@@ -23,4 +23,15 @@
             max-width: 350px;
         }
     }
+    .chousing{
+        display: flex;
+        flex-direction: column;
+        &__us-title{
+            font-size:24px;
+        }
+        &__luxury-title{
+            font-size: 18px;
+            line-height:8.13px
+        }
+    }
 }
