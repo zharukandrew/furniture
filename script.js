@@ -8,3 +8,4 @@ header.addEventListener("click", head);
 headerImg.addEventListener("click", adds);
 chousingUs.addEventListener("click", chouse);
 export { header,headerImg ,chousingUs};
+
