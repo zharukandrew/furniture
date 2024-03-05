@@ -9,7 +9,7 @@
   box-sizing: border-box;
 }
 
-ol, ul {
+ol, ul, li {
   list-style-type: none;
 }
 

@@ -1,0 +1,36 @@
+
+h1{
+    max-width: 389px;
+    height:52px;
+    font-size:42px;
+    line-height:49.22px;
+    color: #1E1E1E;
+    font-family: 'Gilroy Bold';
+    font-weight: 700;
+}
+.product{
+    
+       display: flex;
+       justify-content: center;
+    
+    
+    &__block{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 32px;
+        margin-bottom: 32px;
+        margin-left: 538px;
+        max-width: 348px;
+        background-color: darkgray;
+        border-radius: 30px;
+        height:57px;
+    }
+    &__block-item{
+        font-size:18px;
+        line-height:33.3px;
+        padding: 6px;
+        font-family: 'Gilroy Regular';
+        font-weight: 400;
+    }
+}
+

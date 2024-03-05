@@ -29,4 +29,23 @@
     font-size: 18px;
     line-height: 8.13px;
   }
+  .product__title h1 {
+    font-size: 22px;
+    line-height: 19.22px;
+  }
+  .product__block {
+    display: flex;
+    justify-content: space-evenly;
+    width: 348px;
+    background-color: darkgray;
+    border-radius: 10px;
+    margin-left: 150px;
+  }
+  .product__block-item {
+    font-size: 18px;
+    line-height: 33.3px;
+    padding: 6px;
+    font-family: "Gilroy Regular";
+    font-weight: 400;
+  }
 }/*# sourceMappingURL=mobile.css.map */
