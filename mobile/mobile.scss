@@ -34,26 +34,26 @@
             line-height:8.13px
         }
     }
-    .product{
-        &__title h1{
+    .product h1{
             font-size:22px;
             line-height:19.22px;
         }
-        &__block{
-            display: flex;
-            justify-content: space-evenly;
-           width: 348px;
-            background-color: darkgray;
-            border-radius: 10px;
-           margin-left: 150px;
-        }
-        &__block-item{
-            font-size:18px;
-            line-height:33.3px;
-            padding: 6px;
-            font-family: 'Gilroy Regular';
-            font-weight: 400;
-        }
-    }
+        
     
+   .productblock{
+        display: flex;
+        justify-content: space-evenly;
+       width: 348px;
+        background-color: darkgray;
+        border-radius: 10px;
+       margin-left: 150px;
+       &__item{
+        font-size:18px;
+        line-height:33.3px;
+        padding: 6px;
+        font-family: 'Gilroy Regular';
+        font-weight: 400;
+    }
+    }
+   
 }
