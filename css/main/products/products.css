@@ -3,7 +3,7 @@
   height: 52px;
   font-size: 42px;
   line-height: 49.22px;
-  color: #1E1E1E;
+  color: #1e1e1e;
   font-family: "Gilroy Bold";
   font-weight: 700;
 }
@@ -30,4 +30,56 @@
   padding: 6px;
   font-family: "Gilroy Regular";
   font-weight: 400;
+}
+
+.productbox {
+  display: flex;
+  gap: 42px;
+  margin-left: 121px;
+  margin-right: 120px;
+  margin-top: 80px;
+}
+.productbox__item {
+  border-radius: 10px;
+  border: 2px solid green;
+  max-width: 269px;
+  height: 441px;
+}
+.productbox__item-page {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #8d8d8d;
+  font-size: 1rem;
+  line-height: 20.28px;
+  padding-top: 13px;
+  padding-left: 13px;
+  padding-right: 122px;
+}
+.productbox__item-subtitle {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  color: #0d1b39;
+  font-size: 22px;
+  line-height: 25.81px;
+  padding-top: 6px;
+  padding-left: 13px;
+}
+.productbox__item-lists {
+  display: flex;
+  padding-left: 13px;
+  padding-right: 122px;
+}
+.productbox__item-list {
+  display: flex;
+  gap: 7.5rem;
+  margin-top: 36.56px;
+  padding-left: 13px;
+  padding-right: 122px;
+}
+.productbox__item-list p {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  color: #0d1b39;
+  font-size: 21.33px;
+  line-height: 25.81px;
 }/*# sourceMappingURL=products.css.map */

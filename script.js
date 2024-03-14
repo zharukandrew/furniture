@@ -12,3 +12,4 @@ chousingUs.addEventListener("click", chouse);
 product.addEventListener("click",prod)
 
 export { header, headerImg, chousingUs ,product };
+
