@@ -41,7 +41,26 @@
     border: 2px solid green;
     max-width: 269px;
     height: 441px;
-
+    &-block {
+      height: 255px;
+      background-image: url(/img/char/chair-01.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    &-chair {
+      height: 255px;
+      background-image: url(/img/char/chair-04.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+ 
+    &-block img {
+      position: relative;
+      right: 45px;
+      top: 200px;
+    }
     &-page {
       font-family: "Inter", sans-serif;
       font-weight: 400;

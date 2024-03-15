@@ -45,6 +45,25 @@
   max-width: 269px;
   height: 441px;
 }
+.productbox__item-block {
+  height: 255px;
+  background-image: url(/img/char/chair-01.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.productbox__item-chair {
+  height: 255px;
+  background-image: url(/img/char/chair-04.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.productbox__item-block img {
+  position: relative;
+  right: 45px;
+  top: 200px;
+}
 .productbox__item-page {
   font-family: "Inter", sans-serif;
   font-weight: 400;
