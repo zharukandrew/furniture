@@ -55,5 +55,23 @@
         font-weight: 400;
     }
     }
-   
+   .productbox{
+    display: flex;
+    flex-direction: column;
+    &-block{
+        height: 155px;
+    }
+    &-sakarias {
+        max-width: 87px;
+        height: 155px;
+      }
+    &-anjay {
+        max-width: 87px;
+        height: 155px;
+      }
+    &-chair {
+        height: 155px;
+        max-width: 87px;
+      }
+}
 }

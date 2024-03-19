@@ -30,6 +30,7 @@
     font-weight: 400;
   }
 }
+
 .productbox {
   display: flex;
   gap: 42px;
@@ -48,6 +49,14 @@
       background-position: center;
       background-size: cover;
     }
+    &-sakarias {
+      max-width: 217px;
+      height: 255px;
+    }
+    &-anjay {
+      max-width: 223px;
+      height: 253px;
+    }
     &-chair {
       height: 255px;
       background-image: url(/img/char/chair-04.png);
@@ -55,10 +64,15 @@
       background-position: center;
       background-size: cover;
     }
- 
+
     &-block img {
       position: relative;
       right: 45px;
+      top: 200px;
+    }
+    &-chair img {
+      position: relative;
+      left: 225px;
       top: 200px;
     }
     &-page {
@@ -101,3 +115,18 @@
     }
   }
 }
+.productboxs {
+  margin-left: 740px;
+  margin-bottom: 60px;
+  margin-top: 50px;
+}
+.productboxs a {
+  color: orangered;
+ 
+}
+.productboxs svg{
+  color: orangered;
+  padding-top: 4px;
+
+}
+

@@ -48,4 +48,23 @@
     font-family: "Gilroy Regular";
     font-weight: 400;
   }
+  .productbox {
+    display: flex;
+    flex-direction: column;
+  }
+  .productbox-block {
+    height: 155px;
+  }
+  .productbox-sakarias {
+    max-width: 87px;
+    height: 155px;
+  }
+  .productbox-anjay {
+    max-width: 87px;
+    height: 155px;
+  }
+  .productbox-chair {
+    height: 155px;
+    max-width: 87px;
+  }
 }/*# sourceMappingURL=mobile.css.map */
