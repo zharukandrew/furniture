@@ -41,7 +41,7 @@
 }
 .productbox__item {
   border-radius: 10px;
-  border: 2px solid green;
+  border: 2px solid white;
   max-width: 269px;
   height: 441px;
 }
@@ -124,6 +124,7 @@
 
 .productboxs a {
   color: orangered;
+  font-size: 18px;
 }
 
 .productboxs svg {

@@ -52,6 +52,10 @@
     display: flex;
     flex-direction: column;
   }
+  .productbox__item-page {
+    font-size: 0.5rem;
+    line-height: 10.28px;
+  }
   .productbox-block {
     height: 155px;
   }
@@ -66,5 +70,14 @@
   .productbox-chair {
     height: 155px;
     max-width: 87px;
+  }
+  .productboxs {
+    margin-left: 340px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .productboxs a {
+    color: orangered;
+    font-size: 16px;
   }
 }/*# sourceMappingURL=mobile.css.map */
