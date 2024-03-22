@@ -1,0 +1,83 @@
+@media (max-width: 767px) {
+  .header__content {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+  }
+  .header__menu {
+    display: flex;
+    gap: 25px;
+  }
+  .header__menu-list {
+    font-size: 6px;
+  }
+  .muhmalistic__title {
+    font-size: 16px;
+  }
+  .muhmalistic__page {
+    font-size: 16px;
+    max-width: 350px;
+  }
+  .chousing {
+    display: flex;
+    flex-direction: column;
+  }
+  .chousing__us-title {
+    font-size: 24px;
+  }
+  .chousing__luxury-title {
+    font-size: 18px;
+    line-height: 8.13px;
+  }
+  .product h1 {
+    font-size: 22px;
+    line-height: 19.22px;
+  }
+  .productblock {
+    display: flex;
+    justify-content: space-evenly;
+    width: 348px;
+    background-color: darkgray;
+    border-radius: 10px;
+    margin-left: 150px;
+  }
+  .productblock__item {
+    font-size: 18px;
+    line-height: 33.3px;
+    padding: 6px;
+    font-family: "Gilroy Regular";
+    font-weight: 400;
+  }
+  .productbox {
+    display: flex;
+    flex-direction: column;
+  }
+  .productbox__item-page {
+    font-size: 0.5rem;
+    line-height: 10.28px;
+  }
+  .productbox-block {
+    height: 155px;
+  }
+  .productbox-sakarias {
+    max-width: 87px;
+    height: 155px;
+  }
+  .productbox-anjay {
+    max-width: 87px;
+    height: 155px;
+  }
+  .productbox-chair {
+    height: 155px;
+    max-width: 87px;
+  }
+  .productboxs {
+    margin-left: 340px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .productboxs a {
+    color: orangered;
+    font-size: 16px;
+  }
+}/*# sourceMappingURL=mobile.css.map */

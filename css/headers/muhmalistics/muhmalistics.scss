@@ -1,0 +1,48 @@
+.placeholder {
+  padding-right: 20px;
+}
+.muhmalistic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__title {
+    font-family: "Gilroy Bold";
+    font-weight: 700;
+    font-size: 80px;
+    color: white;
+    margin-top: 161px;
+    max-width: 961px;
+    text-align: center;
+  }
+  &__page {
+    font-size: 24px;
+    padding-top: 14px;
+    max-width: 535px;
+    text-align: center;
+    color: #ffff;
+    font-family: "Gilroy Regular";
+    font-weight: 400;
+    opacity: 80%;
+    line-height: 38.4px;
+  }
+  &__box-input {
+    margin-top: 40px;
+    width: 344px;
+    height: 56px;
+    // padding: 8px, 8px, 8px, 20px;
+    border-radius: 42px;
+    border: 0.86px solid #ffffff99;
+    //    background-color: #FFFFFF99;
+    background: #ffffff99 url(/img/Frame\ 48095395.png) no-repeat center;
+    background-position: 290px center;
+  }
+
+  .muhmalistic__box-input::placeholder {
+    font-family: "Gilroy Regular";
+    font-weight: 400;
+    padding-left: 20px;
+    color: #ffffff99;
+    font-size: 18px;
+    line-height: 27px;
+  }
+}

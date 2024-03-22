@@ -1,0 +1,56 @@
+.chousing {
+  display: flex;
+  gap: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  justify-content: space-between;
+  margin-top: 120px;
+  margin-bottom: 160px;
+}
+.chousing__us-title {
+  font-family: "Gilroy Bold";
+  font-weight: 700;
+  color: black;
+  font-size: 42px;
+  max-width: 242px;
+  height: 104px;
+}
+.chousing__luxury-title {
+  font-family: "Gilroy Bold";
+  font-weight: 700;
+  color: black;
+  font-size: 28px;
+  line-height: 28.13px;
+}
+.chousing__luxury-page-page {
+  font-family: "Gilroy Regular";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29.6px;
+  color: grey;
+  max-width: 256px;
+  padding-top: 20px;
+}
+.chousing__luxury-page-price {
+  font-family: "Gilroy Regular";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29.6px;
+  color: grey;
+  max-width: 256px;
+  padding-top: 20px;
+}
+.chousing__luxury-page {
+  font-family: "Gilroy Regular";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29.6px;
+  color: grey;
+  max-width: 286px;
+  padding-top: 20px;
+}
+.chousing__luxury-link {
+  color: orangered;
+  display: flex;
+  padding-top: 20px;
+}/*# sourceMappingURL=chousings.css.map */
