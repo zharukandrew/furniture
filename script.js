@@ -1,5 +1,5 @@
-import { head, adds, chouse ,prod } from "../animation/animation.js";
 
+import { head, adds, chouse ,prod } from "./animation/animation.js";
 const header = document.querySelector(".header__svg");
 
 const headerImg = document.querySelector(".header__img");
