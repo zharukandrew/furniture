@@ -1,89 +1,87 @@
-@media(max-width:767px){
-    .header{
-        &__content{
-            display: flex;
-            justify-content: space-evenly;
-            gap:10px
-        }
-        &__menu{
-            display: flex;
-            gap: 25px 
-            
-        }
-        &__menu-list{
-            font-size: 6px;
-        }
+@media (max-width: 767px) {
+  .header {
+    &__content {
+      display: flex;
+      justify-content: space-evenly;
+      gap: 10px;
     }
-    .muhmalistic{
-        &__title{
-            font-size:16px
-        }
-        &__page{
-            font-size:16px;
-            max-width: 350px;
-        }
+    &__menu {
+      display: flex;
+      gap: 25px;
     }
-    .chousing{
-        display: flex;
-        flex-direction: column;
-        &__us-title{
-            font-size:24px;
-        }
-        &__luxury-title{
-            font-size: 18px;
-            line-height:8.13px
-        }
+    &__menu-list {
+      font-size: 6px;
     }
-    .product h1{
-            font-size:22px;
-            line-height:19.22px;
-        }
-        
-    
-   .productblock{
-        display: flex;
-        justify-content: space-evenly;
-       width: 348px;
-        background-color: darkgray;
-        border-radius: 10px;
-       margin-left: 150px;
-       &__item{
-        font-size:18px;
-        line-height:33.3px;
-        padding: 6px;
-        font-family: 'Gilroy Regular';
-        font-weight: 400;
+  }
+  .muhmalistic {
+    &__title {
+      font-size: 16px;
     }
+    &__page {
+      font-size: 16px;
+      max-width: 350px;
     }
-   .productbox{
+  }
+  .chousing {
     display: flex;
     flex-direction: column;
-    &__item-page{
-        font-size: 0.5rem;
+    &__us-title {
+      font-size: 24px;
+    }
+    &__luxury-title {
+      font-size: 18px;
+      line-height: 8.13px;
+    }
+  }
+  .product h1 {
+    font-size: 22px;
+    line-height: 19.22px;
+  }
+
+  .productblock {
+    display: flex;
+    justify-content: space-evenly;
+    width: 348px;
+    background-color: darkgray;
+    border-radius: 10px;
+    margin-left: 150px;
+    &__item {
+      font-size: 18px;
+      line-height: 33.3px;
+      padding: 6px;
+      font-family: "Gilroy Regular";
+      font-weight: 400;
+    }
+  }
+  .productbox {
+    display: flex;
+    flex-direction: column;
+    &__item-page {
+      font-size: 0.5rem;
       line-height: 10.28px;
     }
-    &-block{
-        height: 155px;
+    &-block {
+      height: 155px;
     }
     &-sakarias {
-        max-width: 87px;
-        height: 155px;
-      }
+      max-width: 87px;
+      height: 155px;
+    }
     &-anjay {
-        max-width: 87px;
-        height: 155px;
-      }
+      max-width: 87px;
+      height: 155px;
+    }
     &-chair {
-        height: 155px;
-        max-width: 87px;
-      }
-}
-.productboxs{
+      height: 155px;
+      max-width: 87px;
+    }
+  }
+  .productboxs {
     margin-left: 340px;
-  margin-bottom: 30px;
-  margin-top: 30px;
-}
-.productboxs a {
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .productboxs a {
     color: orangered;
     font-size: 16px;
   }

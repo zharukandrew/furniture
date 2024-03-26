@@ -1,8 +1,8 @@
-@import '../../fonts/fonts.css';
-@import '../../reset/reset.css';
-@import '../headers/header/header.css';
-@import '../headers/muhmalistics/muhmalistics.css';
-@import '../main/chousings/chousings.css';
-@import '../main/products/products.css';
-@import '../../mobile/mobile.css';
-@import '../../animation/animation.css';/*# sourceMappingURL=style.css.map */
+@import "../../fonts/fonts.css";
+@import "../../reset/reset.css";
+@import "../headers/header/header.css";
+@import "../headers/muhmalistics/muhmalistics.css";
+@import "../main/chousings/chousings.css";
+@import "../main/products/products.css";
+@import "../../mobile/mobile.css";
+@import "../../animation/animation.css";/*# sourceMappingURL=style.css.map */
