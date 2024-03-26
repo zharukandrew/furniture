@@ -27,9 +27,7 @@
 @font-face {
   font-family: "Gilroy Bold";
   src: url("Gilroy-Bold.eot");
-  src: url("Gilroy-Bold.eot?#iefix") format("embedded-opentype"),
-    url("Gilroy-Bold.woff") format("woff"),
-    url("Gilroy-Bold.ttf") format("truetype");
+  src: url("Gilroy-Bold.eot?#iefix") format("embedded-opentype");
   font-weight: 700;
   font-style: normal;
 }
@@ -37,9 +35,7 @@
 @font-face {
   font-family: "Gilroy Regular";
   src: url("Gilroy-Regular.eot");
-  src: url("Gilroy-Regular.eot?#iefix") format("embedded-opentype"),
-    url("Gilroy-Regular.woff") format("woff"),
-    url("Gilroy-Regular.ttf") format("truetype");
+  src: url("Gilroy-Regular.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal;
 }
