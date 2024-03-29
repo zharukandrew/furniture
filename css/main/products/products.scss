@@ -47,8 +47,24 @@
   gap: 42px;
   margin-left: 121px;
   margin-right: 120px;
-  margin-top: 80px;
+  margin-top: 50px;
   position: relative;
+&__item-chair{
+  max-width: 268px;
+  max-height: 260px;
+}
+&__item-sakarias {
+  max-width: 268px;
+  max-height: 260px;
+}
+&__item-anjay {
+  max-width: 268px;
+  max-height: 260px;
+}
+&__item-nuntuy {
+  max-width: 268px;
+  max-height: 260px;
+}
 
   &__btn-prev {
     display: flex;
@@ -71,7 +87,7 @@
     overflow: hidden;
     transform: translateY(-50%);
     top: 50%;
-    right: -30px;
+    right: 115px;
     width: 50px;
     height: 50px;
     border-radius: 100%;
@@ -81,16 +97,9 @@
     border-radius: 10px;
     border: 2px solid white;
     max-width: 269px;
-    height: 441px;
+    max-height: 450px;
    
-    &-sakarias {
-      max-width: 217px;
-      height: 255px;
-    }
-    &-anjay {
-      max-width: 223px;
-      height: 253px;
-    }
+   
 
     &-page {
       font-family: "Inter", sans-serif;
@@ -118,10 +127,11 @@
     }
     &-list {
       display: flex;
-      gap: 7.5rem;
-      margin-top: 36.56px;
+      gap: 5rem;
+      margin-top: 32.56px;
+      padding-bottom: 30px;
       padding-left: 13px;
-      padding-right: 122px;
+      padding-right: 12px;
     }
     &-list p {
       font-family: "Inter", sans-serif;
@@ -130,18 +140,22 @@
       font-size: 21.33px;
       line-height: 25.81px;
     }
+    &-list img {
+      max-width: 39px;
+      max-height: 39px;
+    }
   }
 }
 .productboxs {
   margin-left: 740px;
   margin-bottom: 50px;
   margin-top: 50px;
-
+  padding-bottom: 60px;
 }
 .productboxs a {
   color: orangered;
   font-size: 18px;
- 
+
 }
 .productboxs svg {
   color: orangered;
