@@ -1,4 +1,10 @@
+.products {
+  background-color: #f7f7f7;
+ 
+}
+
 .product h1 {
+  padding-top: 50px;
   max-width: 389px;
   height: 52px;
   font-size: 42px;
@@ -10,6 +16,7 @@
 .product {
   display: flex;
   justify-content: center;
+  padding-bottom: 38px;
 }
 
 .productblock {
@@ -30,25 +37,52 @@
     font-weight: 400;
   }
 }
-
+.productbox__items-box{
+  max-width: 235px;
+  max-height: 185px;
+  background-color: white;
+}
 .productbox {
   display: flex;
   gap: 42px;
   margin-left: 121px;
   margin-right: 120px;
   margin-top: 80px;
+  position: relative;
+
+  &__btn-prev {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+  }
+  &__btn-next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    overflow: hidden;
+    transform: translateY(-50%);
+    top: 50%;
+    right: -30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: white;
+  }
   &__item {
     border-radius: 10px;
     border: 2px solid white;
     max-width: 269px;
     height: 441px;
-    &-block {
-      height: 255px;
-      background-image: url(../../../img/char/chair-01.png);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-    }
+   
     &-sakarias {
       max-width: 217px;
       height: 255px;
@@ -57,24 +91,7 @@
       max-width: 223px;
       height: 253px;
     }
-    &-chair {
-      height: 255px;
-      background-image: url(../../../img/char/chair-01.png);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-    }
 
-    &-block img {
-      position: relative;
-      right: 45px;
-      top: 200px;
-    }
-    &-chair img {
-      position: relative;
-      left: 225px;
-      top: 200px;
-    }
     &-page {
       font-family: "Inter", sans-serif;
       font-weight: 400;
@@ -117,12 +134,14 @@
 }
 .productboxs {
   margin-left: 740px;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
   margin-top: 50px;
+
 }
 .productboxs a {
   color: orangered;
   font-size: 18px;
+ 
 }
 .productboxs svg {
   color: orangered;

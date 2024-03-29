@@ -1,4 +1,9 @@
+.products {
+  background-color: #f7f7f7;
+}
+
 .product h1 {
+  padding-top: 50px;
   max-width: 389px;
   height: 52px;
   font-size: 42px;
@@ -11,6 +16,7 @@
 .product {
   display: flex;
   justify-content: center;
+  padding-bottom: 38px;
 }
 
 .productblock {
@@ -32,25 +38,52 @@
   font-weight: 400;
 }
 
+.productbox__items-box {
+  max-width: 235px;
+  max-height: 185px;
+  background-color: white;
+}
+
 .productbox {
   display: flex;
   gap: 42px;
   margin-left: 121px;
   margin-right: 120px;
   margin-top: 80px;
+  position: relative;
+}
+.productbox__btn-prev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.productbox__btn-next {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  overflow: hidden;
+  transform: translateY(-50%);
+  top: 50%;
+  right: -30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: white;
 }
 .productbox__item {
   border-radius: 10px;
   border: 2px solid white;
   max-width: 269px;
   height: 441px;
-}
-.productbox__item-block {
-  height: 255px;
-  background-image: url(../../../img/char/chair-01.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 .productbox__item-sakarias {
   max-width: 217px;
@@ -59,23 +92,6 @@
 .productbox__item-anjay {
   max-width: 223px;
   height: 253px;
-}
-.productbox__item-chair {
-  height: 255px;
-  background-image: url(../../../img/char/chair-01.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-.productbox__item-block img {
-  position: relative;
-  right: 45px;
-  top: 200px;
-}
-.productbox__item-chair img {
-  position: relative;
-  left: 225px;
-  top: 200px;
 }
 .productbox__item-page {
   font-family: "Inter", sans-serif;
@@ -118,7 +134,7 @@
 
 .productboxs {
   margin-left: 740px;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
   margin-top: 50px;
 }
 
