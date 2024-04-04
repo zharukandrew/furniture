@@ -32,6 +32,9 @@ option:checked {
   display: flex;
   gap: 65px;
 }
+.header__menu-list a {
+  color: white;
+}
 .header__menu-list {
   font-family: "Gilroy-Medium", sans-serif;
   font-weight: 400;

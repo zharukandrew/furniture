@@ -32,6 +32,9 @@ option:checked {
   &__menu {
     display: flex;
     gap: 65px;
+  &-list a {
+    color:white;
+  }
 
     &-list {
       font-family: "Gilroy-Medium", sans-serif;
