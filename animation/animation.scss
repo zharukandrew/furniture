@@ -1,8 +1,11 @@
 
 .productbox__item:hover {
   transform: scale(1.3);
-  transition: 2s;
+  transition: transform 2s;
+  transform: scale(1.5);
+  
 }
+
 .productboxs a:hover {
   color: darkviolet;
   
