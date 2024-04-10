@@ -35,7 +35,7 @@
   border: 0.86px solid rgba(255, 255, 255, 0.6);
   background: rgba(255, 255, 255, 0.6) url(../../../img/header.png/Frame\ 48095395.png) no-repeat center;
   background-position: 290px center;
-  padding: 10px;
+  padding-left: 10px;
 }
 .muhmalistic .muhmalistic__box-input::-moz-placeholder {
   font-family: "Gilroy Regular";

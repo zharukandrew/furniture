@@ -100,6 +100,7 @@
   border: 2px solid white;
   max-width: 269px;
   max-height: 450px;
+  transition: 1s;
 }
 .productbox__item-page {
   font-family: "Inter", sans-serif;
@@ -146,10 +147,11 @@
 }
 
 .productboxs {
-  margin-left: 740px;
-  margin-bottom: 50px;
-  margin-top: 50px;
-  padding-bottom: 60px;
+  width: 100%;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .productboxs a {
