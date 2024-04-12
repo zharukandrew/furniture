@@ -152,11 +152,24 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .productboxs a {
   color: orangered;
   font-size: 18px;
+}
+
+.productboxs a::after {
+  content: url("../../../img/svg/Vector.svg");
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  top: 50px;
+  left: 53%;
+  height: 100px;
+  width: 30px;
+  height: 15px;
 }
 
 .productboxs svg {
