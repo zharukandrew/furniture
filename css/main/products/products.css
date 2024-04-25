@@ -47,8 +47,8 @@
 .productbox {
   display: flex;
   gap: 42px;
-  margin-left: 121px;
-  margin-right: 120px;
+  margin-left: 141px;
+  margin-right: 141px;
   margin-top: 50px;
   position: relative;
 }
@@ -89,7 +89,7 @@
   overflow: hidden;
   transform: translateY(-50%);
   top: 50%;
-  right: 115px;
+  right: 70px;
   width: 50px;
   height: 50px;
   border-radius: 100%;
@@ -141,9 +141,14 @@
   font-size: 21.33px;
   line-height: 25.81px;
 }
-.productbox__item-list img {
-  max-width: 39px;
-  max-height: 39px;
+.productbox__item-list button {
+  width: 39px;
+  height: 39px;
+  padding: -4px;
+  background-color: #0d1b39;
+  border-radius: 50px;
+  color: #f7f7f7;
+  font-size: 35px;
 }
 
 .productboxs {
@@ -152,24 +157,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
 }
 
 .productboxs a {
   color: orangered;
   font-size: 18px;
+  position: relative;
 }
 
 .productboxs a::after {
   content: url("../../../img/svg/Vector.svg");
   position: absolute;
-  bottom: 0;
-  right: 0;
-  top: 50px;
-  left: 53%;
+  right: -40px;
+  top: 10%;
   height: 100px;
   width: 30px;
-  height: 15px;
 }
 
 .productboxs svg {

@@ -44,22 +44,28 @@ option:checked {
       padding-bottom: 10px;
       background-color: transparent;
       border: none;
-      &-list furnituras {
+      &-list-furnituras {
         background-color: transparent;
       }
     }
   }
 
   &__img {
-    height: 28px;
-    background-image: url(../../../img/header.png/Bag.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
-    img {
-      position: relative;
-      left: 10px;
+    position: relative;
+    &__span{
+      width: 20px;
+      height:25px;
+      border-radius: 50%;
+      background-color:#E58411;
+      position: absolute;
+      top:2px;
+      right:-10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color:white;
+      font-weight: bold;
     }
+   
   }
 }

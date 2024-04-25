@@ -43,17 +43,23 @@ option:checked {
   background-color: transparent;
   border: none;
 }
-.header__menu-list-list furnituras {
+.header__menu-list-list-furnituras {
   background-color: transparent;
 }
 .header__img {
-  height: 28px;
-  background-image: url(../../../img/header.png/Bag.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-.header__img img {
   position: relative;
-  left: 10px;
+}
+.header__img__span {
+  width: 20px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #E58411;
+  position: absolute;
+  top: 2px;
+  right: -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
 }/*# sourceMappingURL=header.css.map */

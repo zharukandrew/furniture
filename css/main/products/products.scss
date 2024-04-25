@@ -1,5 +1,6 @@
 .products {
   background-color: #f7f7f7;
+
  
 }
 
@@ -17,6 +18,7 @@
   display: flex;
   justify-content: center;
   padding-bottom: 38px;
+ 
 }
 
 .productblock {
@@ -29,6 +31,7 @@
   background-color: darkgray;
   border-radius: 30px;
   height: 57px;
+  
   &__item {
     font-size: 18px;
     line-height: 33.3px;
@@ -45,8 +48,8 @@
 .productbox {
   display: flex;
   gap: 42px;
-  margin-left: 121px;
-  margin-right: 120px;
+  margin-left: 141px;
+  margin-right: 141px;
   margin-top: 50px;
   position: relative;
   
@@ -88,7 +91,7 @@
     overflow: hidden;
     transform: translateY(-50%);
     top: 50%;
-    right: 115px;
+    right: 70px;
     width: 50px;
     height: 50px;
     border-radius: 100%;
@@ -133,6 +136,7 @@
       padding-bottom: 30px;
       padding-left: 13px;
       padding-right: 12px;
+      
     }
     &-list p {
       font-family: "Inter", sans-serif;
@@ -141,9 +145,17 @@
       font-size: 21.33px;
       line-height: 25.81px;
     }
-    &-list img {
-      max-width: 39px;
-      max-height: 39px;
+    &-list button {
+      
+      width: 39px;
+      height: 39px;
+     padding: -4px;
+      background-color: #0d1b39;
+      border-radius: 50px;
+      color:#f7f7f7;
+      font-size: 35px;
+    
+      
     }
   }
 }
@@ -153,23 +165,21 @@
   display: flex;
   justify-content: center;
   align-items:center;
-  position: relative;
+  
 }
 .productboxs a {
   color: orangered;
   font-size: 18px;
-
+  position: relative;
 }
 .productboxs a::after{
   content:url("../../../img/svg/Vector.svg");
   position: absolute;
-  bottom:0;
-  right:0;
-  top: 50px;
-  left: 53%;
-  height:100px;
+  right:-40px;
+  top: 10%;
+ height:100px;
   width: 30px;
-  height:15px;
+ 
 }
 .productboxs svg {
   color: orangered;
