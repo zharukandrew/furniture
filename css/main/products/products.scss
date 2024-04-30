@@ -38,6 +38,15 @@
     padding: 6px;
     font-family: "Gilroy Regular";
     font-weight: 400;
+    background-color: darkgray;
+    border: darkgray;
+  }
+  &__item:hover{
+    background-color: #f7f7f7;
+    border-radius: 70px;
+    width: 84px;
+    height: 55px;
+    cursor: pointer;
   }
 }
 .productbox__items-box{
@@ -47,11 +56,8 @@
 }
 .productbox {
   display: flex;
+  justify-content: center;
   gap: 42px;
-  margin-left: 141px;
-  margin-right: 141px;
-  margin-top: 50px;
-  position: relative;
   
 &__item-chair{
   max-width: 268px;
@@ -74,25 +80,28 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
+   position:absolute ;
     overflow: hidden;
-    top: 50%;
     transform: translateY(-50%);
-    left: -30px;
+    left: 50px;
     width: 50px;
     height: 50px;
     border-radius: 100%;
+    left: 250px;
+    margin-top: 250px;
   }
+ 
   &__btn-next {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
+   position: relative;
     overflow: hidden;
     transform: translateY(-50%);
-    top: 50%;
-    right: 70px;
+    left: 1130px;
     width: 50px;
+    margin-top: 250px;
+   
     height: 50px;
     border-radius: 100%;
     background-color: white;

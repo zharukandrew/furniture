@@ -26,17 +26,33 @@
     line-height: 38.4px;
   }
   &__box-input {
+    position: relative;
     margin-top: 40px;
     width: 344px;
     height: 56px;
     border-radius: 42px;
     border: 0.86px solid #ffffff99;
-    background: #ffffff99 url(../../../img/header.png/Frame\ 48095395.png)
+    background: #ffffff99 
       no-repeat center;
+    //background: #ffffff99 url(../../../img/header.png/Frame\ 48095395.png)
+    //no-repeat center;
+    
     background-position: 290px center;
     padding-left: 10px;
   }
-
+  .muhmalistic__box-button{
+    position: absolute;
+    top:564px;
+    margin-left: -60px;
+    background-color: #E58411;
+    border-radius: 50px;
+    width: 45px;
+    height: 45px;
+  }
+  .muhmalistic__box-button:hover{
+    cursor: pointer;
+  }
+ 
   .muhmalistic__box-input::placeholder {
     font-family: "Gilroy Regular";
     font-weight: 400;
